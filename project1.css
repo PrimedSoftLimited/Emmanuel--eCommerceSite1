@@ -1,0 +1,90 @@
+body {
+    overflow: hidden;
+}
+
+.nav-content {
+    float: right;
+    margin-top: 20px;
+}
+
+#nike-logo {
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.nav-bar {
+    font-family: Arial;
+    font-size: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.soc-med {
+    float: right;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-column-gap: 2em;
+}
+
+#airmax {
+    position: absolute;
+    margin-top: -175px;
+    margin-left: -120px;
+}
+
+#geometry {
+    position: absolute;
+    margin: 7%;
+}
+
+.description {
+    float: right;
+    margin-top: 170px;
+}
+
+.desc-header {
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #313649;
+    line-height: 55px;
+    font-stretch: wider;
+}
+
+.full-desc {
+    max-width: 320px;
+    font-family: Arial;
+    margin-top: 15px;
+    font-weight: 100;
+}
+/*.empty-span {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            border: 0.5px solid red;
+            float:right;
+            margin-left: -70px;
+        }*/
+.button {
+    background-color: #313649;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 11px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-stretch: expanded;
+}
